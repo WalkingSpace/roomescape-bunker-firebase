@@ -16,3 +16,11 @@
 
 ### Storage Rule deploy
 * `firebase deploy --only storage`
+
+## Firestore Data Model (Updating...)
+* userList `[collection]`
+	* `{uid}` `[document]`
+* reviewByUser `[collection]`
+	* `{uid}` `[document]`
+* reviewByTheme `[collection]`
+	* `{theme_id}` `[document]`
